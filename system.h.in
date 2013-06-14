@@ -166,13 +166,16 @@
 /* Define to empty if `const' does not conform to ANSI C. */
 #undef const
 
+/* Define to `int' if <sys/types.h> does not define. */
+#undef error_t
+
 /* Define to rpl_malloc if the replacement function should be used. */
 #undef malloc
 
 /* Define to rpl_realloc if the replacement function should be used. */
 #undef realloc
 
-/* Define to `unsigned int' if <sys/types.h> does not define. */
+/* Define to `unsigned' if <sys/types.h> does not define. */
 #undef size_t
 
 /* Define to empty if the keyword `volatile' does not work. Warning: valid

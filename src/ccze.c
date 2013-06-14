@@ -209,7 +209,7 @@ parse_opt (int key, char *arg, struct argp_state *state)
 	}
       break;
     case 'a':
-      plugin = strtok (arg, "=");
+      plugin = strtok (optarg, "=");
       value = strtok (NULL, "\n");
       ccze_plugin_argv_set (plugin, value);
       break;
@@ -249,7 +249,7 @@ parse_opt (int key, char *arg, struct argp_state *state)
       ccze_config.remfac = 1;
       break;
     case 'm':
-      subopts = arg;
+      subopts = optarg;
       while (*subopts != '\0')
 	{
 	  switch (getsubopt (&subopts, m_subopts, &value))
@@ -273,7 +273,7 @@ parse_opt (int key, char *arg, struct argp_state *state)
 	}
       break;
     case 'o':
-      subopts = arg;
+      subopts = optarg;
       while (*subopts != '\0')
 	{
 	  switch (getsubopt (&subopts, o_subopts, &value))

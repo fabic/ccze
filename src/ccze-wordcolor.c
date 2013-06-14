@@ -37,13 +37,13 @@ static char *words_bad[] = {
   "warn", "restart", "exit", "stop", "end", "shutting", "down", "close",
   "unreach", "can't", "cannot", "skip", "deny", "disable", "ignored",
   "miss", "oops", "not", "backdoor", "blocking", "ignoring",
-  "unable", "readonly", "offline", "terminate", "empty", "virus"
+  "unable", "readonly", "offline", "terminate", "empty"
 };
 
 static char *words_good[] = {
   "activ", "start", "ready", "online", "load", "ok", "register", "detected",
   "configured", "enable", "listen", "open", "complete", "attempt", "done",
-  "check", "listen", "connect", "finish", "clean"
+  "check", "listen", "connect", "finish"
 };
 
 static char *words_error[] = {
@@ -291,7 +291,7 @@ ccze_wordcolor_setup (void)
   reg_time = pcre_compile ("\\d{1,2}:\\d{1,2}(:\\d{1,2})?", 0, &error,
 			   &errptr, NULL);
   reg_addr = pcre_compile ("^0x(\\d|[a-f])+$", 0, &error, &errptr, NULL);
-  reg_num = pcre_compile ("^[+-]?\\d+$", 0, &error, &errptr, NULL);
+  reg_num = pcre_compile ("^-?\\d+$", 0, &error, &errptr, NULL);
   reg_sig = pcre_compile ("^sig(hup|int|quit|ill|abrt|fpe|kill|segv|pipe|"
 			  "alrm|term|usr1|usr2|chld|cont|stop|tstp|tin|tout|"
 			  "bus|poll|prof|sys|trap|urg|vtalrm|xcpu|xfsz|iot|"
