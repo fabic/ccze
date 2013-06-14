@@ -1,3 +1,10 @@
+fabic : Forked it on 2013-06-14, « patching » it with Debian's 0.2.1 source tarball, and 0.2.1-2 patch.
+
+Couldn't find the actual official homepage for it.
+See <http://packages.debian.org/wheezy/ccze>
+See <http://freecode.com/projects/ccze>
+
+---
 This is CCZE, a fast log colorizer written in C, intended to be a
 drop-in replacement for colorize (http://colorize.raszi.hu).
 
