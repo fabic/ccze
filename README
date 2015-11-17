@@ -4,6 +4,8 @@ Couldn't find the actual official homepage for it.
 See <http://packages.debian.org/wheezy/ccze>
 See <http://freecode.com/projects/ccze>
 
+__EDIT/2015-11-17 :__ Happens that the _official repo._ is https://github.com/madhouse/ccze
+
 ---
 This is CCZE, a fast log colorizer written in C, intended to be a
 drop-in replacement for colorize (http://colorize.raszi.hu).
