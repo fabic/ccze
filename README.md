@@ -1,10 +1,12 @@
-fabic : Forked it on 2013-06-14, « patching » it with Debian's 0.2.1 source tarball, and 0.2.1-2 patch.
+## CCZE (unofficial)
 
-Couldn't find the actual official homepage for it.
-See <http://packages.debian.org/wheezy/ccze>
-See <http://freecode.com/projects/ccze>
+* fabic : Forked it on 2013-06-14, « patching » it with Debian's 0.2.1 source tarball, and 0.2.1-2 patch.
 
-__EDIT/2015-11-17 :__ Happens that the _official repo._ is https://github.com/madhouse/ccze
+* Couldn't find the actual official homepage for it.
+* See <http://packages.debian.org/wheezy/ccze>
+* See <http://freecode.com/projects/ccze>
+
+* __EDIT/2015-11-17 :__ Happens that the _official repo._ is https://github.com/madhouse/ccze
 
 ---
 This is CCZE, a fast log colorizer written in C, intended to be a
